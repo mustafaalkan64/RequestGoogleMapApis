@@ -18,7 +18,7 @@ Bunun için yapmanız gereken ilk kurulum için:
 
 ## npm install
 
-Komut ile kullanıcı arayüzünden bir argüman gönderip bu argumanı parse edip gelen değere göre de google map apiden filtreleme yapmak isteyebiliriz. Tüm bunları ve daha fazlasını ## yargs  paketi ile sağlayabiliriz.
+Komut ile kullanıcı arayüzünden bir argüman gönderip bu argumanı parse edip gelen değere göre de google map apiden filtreleme yapmak isteyebiliriz. Tüm bunları ve daha fazlasını yargs  paketi ile sağlayabiliriz.
 
 Detaylı incelemek isterseniz:
 
@@ -37,5 +37,7 @@ Daha sonra address argumanını kullanıp google map apiden belirttiğimiz adres
 Result değeri:
 
 Address : Izmir, İzmir, Turkey
+
 Latitude : 38.423734
+
 Longtitude : 27.142826
