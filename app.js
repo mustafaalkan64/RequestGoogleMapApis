@@ -26,7 +26,7 @@ request({
     if(error) {
         console.log('UNABLE TO CONNECT GOOGLE SERVICES');
     }
-    else if(body.status == 'ZERO_RESULTS') {
+    else if(body.status === 'ZERO_RESULTS') {
         console.log('Unable to find address');
     }
     console.log(`Address : ${body.results[0].formatted_address}`);
