@@ -14,10 +14,10 @@ const argv = yargs
     .argv;
 
     encodedAddress = encodeURIComponent(argv.address);
-    var googlemapurl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=AIzaSyC94KQTIk_2CJW-yTMrtjk7cSs-X2ikc-8`;
+    var googlemapurl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=YOUR-API-KEY`;
     console.log(googlemapurl);
     // command: node app.js --a 'İzmir'
-    // export : https://maps.googleapis.com/maps/api/geocode/json?address=%C4%B0zmir
+    // export : https://maps.googleapis.com/maps/api/geocode/json?address=%C4%B0zmir&key=YOUR-API-KEY
 
 request({
     url: googlemapurl,
