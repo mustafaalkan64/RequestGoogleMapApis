@@ -12,12 +12,26 @@ Ayrıntılı döküman:
 
 https://www.npmjs.com/package/request
 
-Bu uygulamada da google map apisinden basit bir şekilde json data gösterme işlemi gerçekleştirilmiş.
+Bu uygulamada da google map apisinden basit bir şekilde json data gösterme işlemi gerçekleştirilmiştir.
 
-Bunun için yapmanız gereken:
+Bunun için yapmanız gereken ilk kurulum için:
 
 ## npm install
 
-İlgili klasöre gidip:
+Komut ile kullanıcı arayüzünden bir argüman gönderip bu parametreye göre de google map apiden filtreleme yapmak isteyebiliriz.
 
-## node app.js
+Bunun için de 
+
+## npm install yargs@latest --save
+
+komutunu yazıp yargs paketi kurmamız gereklidir.
+
+Daha sonra address argumanını kullanıp google map apiden belirttiğimiz adrese göre result döndürmek için :
+
+## node app.js --address 'İzmir'
+
+Result değeri:
+
+Address : Izmir, İzmir, Turkey
+Latitude : 38.423734
+Longtitude : 27.142826
