@@ -24,13 +24,13 @@ Detaylı incelemek isterseniz:
 
 https://www.npmjs.com/package/yargs
 
-npm üzerinden kurulumu: 
+npm üzerinden kurulumunu: 
 
 ## npm install yargs@latest --save
 
-komutunu yazıp yargs paketi kurmamız gereklidir.
+komutunu yazıp son versiyonunu kaydedebilirsiniz.
 
-Daha sonra address argumanını kullanıp google map apiden belirttiğimiz adrese göre result döndürmek için :
+Daha sonra address argumanını kullanıp google map apiden belirttiğimiz adrese göre json result döndürmek için :
 
 ## node app.js --address 'İzmir'
 
