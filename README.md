@@ -30,7 +30,7 @@ npm üzerinden kurulumunu:
 
 komutunu yazıp son versiyonunu kaydedebilirsiniz.
 
-Daha sonra address argumanını kullanıp google map apiden belirttiğimiz adrese göre json result döndürmek için :
+Daha sonra address argumanını kullanıp google map apiden belirttiğimiz adrese göre filtreleyip json result döndürmek için :
 
 ## node app.js --address 'İzmir'
 
