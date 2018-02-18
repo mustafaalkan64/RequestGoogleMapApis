@@ -18,9 +18,13 @@ Bunun için yapmanız gereken ilk kurulum için:
 
 ## npm install
 
-Komut ile kullanıcı arayüzünden bir argüman gönderip bu parametreye göre de google map apiden filtreleme yapmak isteyebiliriz.
+Komut ile kullanıcı arayüzünden bir argüman gönderip bu argumanı parse edip gelen değere göre de google map apiden filtreleme yapmak isteyebiliriz. Tüm bunları ve daha fazlasını ## yargs  paketi ile sağlayabiliriz.
 
-Bunun için de 
+Detaylı incelemek isterseniz:
+
+https://www.npmjs.com/package/yargs
+
+npm üzerinden kurulumu: 
 
 ## npm install yargs@latest --save
 
