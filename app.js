@@ -23,7 +23,12 @@ request({
     url: googlemapurl,
     json: true
 }, (error, response, body) => {
-    // console.log(JSON.stringify(response, undefined, 2));
+    if(error) {
+        console.log('UNABLE TO CONNECT GOOGLE SERVICES');
+    }
+    else if(body.status == 'ZERO_RESULTS') {
+        console.log('Unable to find address');
+    }
     console.log(`Address : ${body.results[0].formatted_address}`);
     console.log(`Latitude : ${body.results[0].geometry.location.lat}`);
     console.log(`Longtitude : ${body.results[0].geometry.location.lng}`);
